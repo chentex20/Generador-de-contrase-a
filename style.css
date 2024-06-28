@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/desktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg) ;
+    backdrop-filter: blur(6px);
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffffa8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2b1c1c;
+}
+
+input[type="number"] {
+    width: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.generated-password, p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+
+
+
+
+button:disabled {
+    background-color: rgb(159, 158, 158);
+    cursor: not-allowed;
+}
